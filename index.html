@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendHive</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="login">
+            <div class="cover"id="cover">
+                <form class="form"id="form">
+                    <hi style="margin-top: 50px;">Login</hi>
+                    <div class="input">
+                        <label>Username</label>
+                        <input type="text"class ="" id = "name">
+                    </div>
+                    <div class="">
+                        <label>Password</label>
+                        <input type="password" class="" id = "Password">
+                    </div>
+                    <div class="">
+                        <input type="submit"onclick= "validate()">
+                    </div>
+                    <div class="">
+                        <a href="">Create new Account</a>
+                        <a href="">Forgot Password</a>
+                    </div>
+    
+                </form>
+            </div>
+        </div> -->
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/logp.jpg" alt="">
+                </div>
+                <div class="navlink">
+                    <div class="profile">
+                        <img src="img/account_circle_16dp_F5F5F5_FILL0_wght400_GRAD0_opsz20.png" alt="">
+                    </div>
+                    <div class="cart">
+                        <img src="img/shopping_cart_16dp_F5F5F5_FILL0_wght400_GRAD0_opsz20.png" alt="" id="cartbtn">
+                        <div class="counter">
+                            <span id="counter">0</span>
+    
+                            
+                        </div>
+                    </div>  
+                        
+                </div>
+            </nav>
+        </header>
+        <div id="moto" data-aos="flip-left" data-aos-duration="3000">
+
+        </div>
+       
+        <div class="category">
+            <div class="cbox">
+                <div class="mirror">
+                    <h2 class="dis"style="font-size: 65px;">20%</h2>
+                    <h3 class="dis">Flat Discount</h3>
+                    <h3 class="dis" >On T-Shirts</h3>
+                </div>
+                
+            </div>
+            <div class="cbox">
+                <div class="sbox">
+                    <div class="mirror">
+                        <h2 class="dis">25%</h2>
+                        <h3 class="dis">Flat Discount</h3>
+                        <h3 class="dis">On Shoes</h3>
+                    </div>
+                </div>
+                <div class="sbox">
+                    <div class="mirror">
+                        <h2 class="dis">Upto25%</h2>
+                        <h3 class="dis">Flat Discount</h3>
+                        <h3 class="dis">On Gadgets</h3>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="product">
+            <div class="pbox">
+                <img src="img/volleball.jpg" alt="" height="220px" width="100%">
+                <p>Nivia volleball</p>
+                <p>Rs399</p>
+                <button class="add-to-cart" data-name="volleball" data-price="399">Add to cart</button>
+
+                <div class="qtycontainer">
+                    <label for="">Select Quantity</label>
+                    <input type="number" value="1">
+                    
+                </div>
+                
+            </div>
+                
+            <div class="pbox">
+                <img src="img/kettle.jpg" alt="" height="220px" width="100%">
+                <p>Electric Kettle</p>
+                <p>Rs899</p>
+                <button class="add-to-cart" data-name="Electric Kettle" data-price="899">Add to cart</button>
+                <div class="qtycontainer">
+                    <label for="">Select Quantity</label>
+                    <input type="number" value="1">
+                </div>
+                
+            </div>
+                   
+            
+            <div class="pbox">
+                <img src="img/headphone.jpg" alt="" height="200px" width="100%">
+                <p>Headphones</p>
+                <p>Rs1200</p>
+                <button class="add-to-cart" data-name="Headphones" data-price="1200">Add to cart</button>
+                <div class="qtycontainer">
+                    <label for="">Select Quantity</label>
+                    <input type="number" value="1">
+                </div>
+            </div>
+            <div class="pbox">
+                <img src="img/watch-black-box-bow-tie-lie-white-windowsill.jpg" alt="" height="220px" width="100%">
+                <p>Watch</p>
+                <p>Rs899</p>
+                <button class="add-to-cart" data-name="Watch" data-price="899">Add to cart</button>
+                <div class="qtycontainer">
+                    <label for="">Select Quantity</label>
+                    <input type="number" value="1">
+                   
+                </div>
+            </div>
+            
+    </div>
+
+    <div id="fcart">
+        <h3>Shopping cart</h3>
+        <ul id="cart-items"></ul>
+        <p>Total: rs<span id="cart-total">0</span></p>
+    </div>
+    
+    </div>
+     
+    
+    
+</body>
+<script src="index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
