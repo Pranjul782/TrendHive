@@ -1,1 +1,1 @@
-# TrendHive
+TrendHive is a fully responsive e-commerce website that I designed and developed using HTML, CSS, and JavaScript. This project simulates an online shopping platform, offering a user-friendly interface and smooth navigation to enhance the overall shopping experience.
